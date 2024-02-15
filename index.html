@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hi</title>
+    <title>ziom</title>
 <style>
-    html,body{
-        height: 100%;
-     background: url("i.webp");
-
-     background-size: cover;
+    img {display: none;}
+    
+    #s1:checked ~ #img1, 
+    #s2:checked ~ #img2,
+    #s3:checked ~ #img3{
+        display: block;
     }
-.puny1{
-    width: 300px;
-    opacity: 0.5;
-}
-.pt2{
-    width: 450px;
-}
 </style>
 </head>
 <body>
-    привет123
-<img class ="puny1" src="sun.jfif" alt="">
-<img class ="pt2" src="i.webp" alt="">
+    Советские машины
+   <input type="radio" name="name" id="s1">
+   <input type="radio" name="name" id="s2">
+   <input type="radio" name="name" id="s3">
+
+  <img src="moskvich.jpg" alt="" id="img1">
+  <img src="jfif.jpg" alt="" id="img2">
+  <img src="jfaf.jpg" alt="" id="img3">
 </body>
 </html>
