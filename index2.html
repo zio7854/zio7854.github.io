@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Logos</title>
 </head>
 <body>
     <style>
@@ -20,10 +20,17 @@
     </style>
 
     <script>
-        let logo = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg'];
-        let comment = ['Это логотип: NIKE', 'Это логотип: HP', 'Это логотип: ADIDAS', 'Это логотип: PUMA', 'Это логотип: GILLETTE', 'Это логотип: NESTLE', 'Это логотип: ROLEX', 'Это логотип: GUCCI', 'Это логотип: SONY', 'Это логотип: DISNEY',];
+        let logo = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg'];
+        let comment = [0, 1, 2, 3, 4, 5, 6];
 
-        for (let i = 0; i < 10; i++){
+        document.write('Задание 1' + '<br>')
+        for (let i = 0; i < 7; i+=2){
+            document.write(`<img src="IMG/${logo[i]}">`
+            + `<h1>${comment[i]}</h1>` + '<br>');
+        }
+
+        document.write('Задание 2' + '<br>')
+        for (let i = 0; i < 7; i+=3){
             document.write(`<img src="IMG/${logo[i]}">`
             + `<h1>${comment[i]}</h1>` + '<br>');
         }
