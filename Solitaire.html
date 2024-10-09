@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пасьянс</title>
+    <style>
+        @keyframes anim{
+            0%{transform: rotate(90deg);}
+            100%{transform: rotate(0);}
+        }
+        img{
+            width: 170px;
+            animation: anim 5s;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="show()">
+        <img src="card.png">
+    </div>
+<script>
+    function show(){
+    let card = document.createElement('div');
+    card.innerHTML = '<img src="1.png">';
+    document.body.append(card);
+    }
+    
+</script>
+</body>
+</html>
