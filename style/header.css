@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(151, 197, 99);
+    height: 150px;
+}
+
+@font-face {
+    font-family: "shrift";
+    src: url("ofont.ru_Bootshaus.ttf");
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header h1 {
+    font-family: "shrift";
+    font-size: 25px;
+}
+
+.header__title {
+    display: flex;
+
+}
+
+.header__title img{
+    width: 250px;
+}

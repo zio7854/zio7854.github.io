@@ -1,0 +1,19 @@
+.main {
+    border: 10px solid blue;
+}
+
+.main  p {
+    color: green;
+}
+
+.main__img {
+    color: black;
+}
+
+.main__img img {
+    width: 200px;
+}
+
+.main__img h2:hover {
+    color: red;
+}
