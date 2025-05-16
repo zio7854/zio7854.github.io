@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.main__vacancy {
+    width: 80%;
+}
+
+.main__vacancy-item {
+    border: 1px solid rgb(151, 197, 99);
+    font-family: "shrift";
+    width: 95%;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 5px 5px 20px;
+}
+
+
+.main__vacancy-item h2 {
+    font-size: 18px;
+}
+
+.main__vacancy-item p {
+    font-size: 25px;
+}
