@@ -1,6 +1,8 @@
 header {
     background-color: rgb(151, 197, 99);
-    height: 150px;
+    height: 930px;
+    display: flex;
+    flex-direction: column;
 }
 
 @font-face {
@@ -14,10 +16,6 @@ header {
 
 }
 
-header h1 {
-    font-family: "shrift";
-    font-size: 25px;
-}
 
 .header__title {
     display: flex;
@@ -25,5 +23,22 @@ header h1 {
 }
 
 .header__title img{
-    width: 250px;
+    width: 180px;
+    margin-top: -10px;
+}
+
+.header__map img {
+    width: 75vw;
+}
+
+.header__map {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__title h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "shrift";
+    font-size: 40px;
 }
