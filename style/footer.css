@@ -1,17 +1,23 @@
 footer {
+    border: 5px solid darkgreen;
     background-color: rgb(151, 197, 99);
 /*     margin-top: auto; */
-    height: 250px;
-    width: 85%;
+    height: fit-content;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: "shrift";
+    margin-top: 30px;
 }
 
 .footer__info {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .footer__emblems img {
@@ -20,4 +26,20 @@ footer {
 
 .footer__emblems {
     display: flex;
+    margin-top: 20px;
+}
+
+.footer__info h1 {
+    margin-left: 22px;
+}
+
+.footer__emblems-item {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__info img {
+    width: 15px;
 }
