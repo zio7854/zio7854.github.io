@@ -1,8 +1,9 @@
 header {
-    background-color: rgb(151, 197, 99);
+    border: 25px solid rgb(151, 197, 99);
     height: 930px;
     display: flex;
     flex-direction: column;
+    background-image: url("../images/camouflage.webp");
 }
 
 @font-face {
@@ -13,7 +14,9 @@ header {
 .header__menu {
     display: flex;
     justify-content: space-evenly;
-
+    font-family: "shrift";
+    font-size: 26px;
+    text-shadow: 5px 5px 5px rgb(116, 226, 116);
 }
 
 
@@ -25,6 +28,8 @@ header {
 .header__title img{
     width: 180px;
     margin-top: -10px;
+    margin-left: 15px;
+    filter: drop-shadow(5px 10px 10px darkgreen) invert(5%);
 }
 
 .header__map img {
@@ -40,5 +45,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     font-family: "shrift";
-    font-size: 40px;
+    font-size: 48px;
+    text-shadow: 5px 10px 10px rgb(116, 226, 116);
 }
